@@ -7,6 +7,13 @@
     padding: 12px 16px;
     font-size: 16px;
 	}
+	aside .menu span {
+    padding: 12px 16px;
+    font-size: 16px;
+	}
+	aside .menu .collapse .collapse-title {
+    font-size: 16px;
+	}
 	aside .menu .active a {
 		@apply text-primary;
     padding: 12px 16px;
@@ -15,10 +22,10 @@
 		content: '';
 		@apply absolute inline-block w-[0.325rem] bg-primary h-full -left-2 rounded-r-md;
 	}
-	aside .collapse-arrow .collapse-title:after {
+	/* aside .collapse-arrow .collapse-title:after {
 		top: 1rem;
 		transform-origin: 100% 100%;
-	}
+	} */
 	aside .collapse .collapse-content {
 		@apply p-0 hover:bg-transparent;
 	}
